@@ -21,8 +21,7 @@ def oracle():
     result.barrier()
     return result
 
-import random
-from qiskit import QuantumCircuit, execute, Aer
+
 
 def oraclej(n):
     result = QuantumCircuit(n+1)
