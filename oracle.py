@@ -1,7 +1,6 @@
 import random
-# from qiskit import QuantumRegister, ClassicalRegister, QuantumCircuit, execute, Aer #for qiskit version 1.x
-from qiskit import QuantumRegister, ClassicalRegister, QuantumCircuit #for qiskit version 2.x
-from qiskit_aer import Aer #for qiskit version 2.x
+from qiskit import QuantumRegister, ClassicalRegister, QuantumCircuit 
+from qiskit_aer import Aer 
 
 def oracle():
     type = random.choice(["constant", "balanced"])
